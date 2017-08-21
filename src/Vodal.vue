@@ -22,11 +22,9 @@
                 required: true
             },
             width: {
-                type: Number,
                 default: 400
             },
             height: {
-                type: Number,
                 default: 240
             },
             duration: {

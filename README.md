@@ -32,8 +32,7 @@ export default {
 
 ``` sass
 // include animation styles
-@import "vodal/common.css";
-@import "vodal/rotate.css";
+@import "vodal/dist/all.min.css";
 ```
 
 ## Props
