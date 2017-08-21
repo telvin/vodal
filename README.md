@@ -4,7 +4,7 @@ A vue modal with animations.
 
 ## Installation    
 
-    npm i -S vodal
+    npm install telvin-vodal -S
     
 ## Usage
 ``` xml
@@ -61,6 +61,6 @@ className|string|/|className for the container
 * slideLeft
 * slideRight
 
-## Other
-[React version](https://github.com/chenjiahan/rodal)
+This source is just for personal custom usage.
+To find the orignal author: https://github.com/chenjiahan
 

@@ -1,17 +1,17 @@
 {
-  "name": "vodal",
-  "version": "2.2.0",
+  "name": "telvin-vodal",
+  "version": "2.2.1",
   "description": "A vue modal with animations.",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "node_modules/.bin/webpack-dev-server --config ./build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --config ./build/webpack.dev.conf.js",
     "build:doc": "webpack -p --hide-modules --config ./build/webpack.dev.conf.js",
     "build": "webpack -p --hide-modules --config ./build/webpack.prod.conf.js",
     "release": "bash ./build/release.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenjiahan/vodal.git"
+    "url": "git+https://github.com/telvin/vodal.git"
   },
   "keywords": [
     "vue",
@@ -41,5 +41,8 @@
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.4.5",
     "webpack-merge": "^4.1.0"
+  },
+  "directories": {
+    "example": "example"
   }
 }
